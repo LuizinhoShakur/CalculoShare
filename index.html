@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Share</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="full-box">
+        <form action="" onsubmit="return false;">
+            <h1>Calculadora Share</h1>
+            <div class="input-box">
+                <label for="">Motorola:</label>
+                <input type="number" name="" id="n1" placeholder="Ex: 1">
+            </div>
+            <div class="input-box">
+                <label for="">Samsung:</label>
+                <input type="number" name="" id="n2" placeholder="Ex: 1">
+            </div>
+            <div class="input-box">
+                <label for="">Apple:</label>
+                <input type="number" name="" id="n3" placeholder="Ex: 1">
+            </div>
+            <div class="input-box">
+                <label for="">Oppo:</label>
+                <input type="number" name="" id="n4" placeholder="Ex: 1">
+            </div>
+            <button type="button" class="btn" onclick="calcular()">Calcular</button>
+            
+            <!-- Área onde os resultados serão exibidos -->
+            <div id="resultado" class="resultado"></div>
+        </form>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>
